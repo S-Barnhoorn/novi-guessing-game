@@ -5,7 +5,6 @@ const Footer = () => {
     return (
         <div>
             <div className="single-line-footer"/>
-
         </div>
     );
 };

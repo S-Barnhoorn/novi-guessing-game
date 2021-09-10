@@ -12,12 +12,13 @@ const Header = () => {
             <div className="nav-container">
                 <nav>
                     <ul className="nav-menu">
-                        <li className="nav-menu-single"><Link to="/">Home</Link></li>
-                        <li className="nav-menu-single"><Link to="/easymode">Easy</Link></li>
-                        <li className="nav-menu-single"><Link to="/moderatemode">Moderate</Link></li>
-                        <li className="nav-menu-single"><Link to="/hardmode">Hard</Link></li>
+                        <li><Link to="/" className="nav-menu-single">Home</Link></li>
+                        <li><Link to="/easymode" className="nav-menu-single">Easy</Link></li>
+                        <li><Link to="/moderatemode" className="nav-menu-single">Moderate</Link></li>
+                        <li><Link to="/hardmode" className="nav-menu-single">Hard</Link></li>
                     </ul>
                 </nav>
+                <br/>
                 <div className="single-line"/>
             </div>
             <div>

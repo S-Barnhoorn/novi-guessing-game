@@ -1,4 +1,5 @@
 import React from 'react';
+import './Hard.css';
 
 const Hard = () => {
     return (

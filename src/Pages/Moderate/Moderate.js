@@ -1,4 +1,5 @@
 import React from 'react';
+import './Moderate.css';
 
 const Moderate = () => {
     return (
