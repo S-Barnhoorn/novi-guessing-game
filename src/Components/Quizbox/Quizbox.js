@@ -5,7 +5,9 @@ const Quizbox = () => {
     return (
         <div className="quizbox-container">
             <div className="quizbox-information">
-                Tekst
+                <p>Vraag:</p>
+                <label htmlFor="Awnser">Antwoord:</label>
+                <input name="Awnser" type="text"/>
             </div>
 
         </div>
