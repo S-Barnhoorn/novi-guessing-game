@@ -1,17 +1,16 @@
-.nav-container{
+.nav_container{
     background-color: orange;
     margin-top: -16px;
-
 }
 
-.nav-menu{
+.nav_menu{
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
     flex-basis: 200px;
 }
 
-.nav-menu-single{
+.nav_menu_single{
     cursor: pointer;
     color: white;
     text-decoration: none;
@@ -19,11 +18,11 @@
     font-weight: bold;
 }
 
-.nav-menu-single:hover{
+.nav_menu_single:hover{
    font-size: 25px;
 }
 
-.single-line{
+.single_line{
     width: 100%;
     height: 1px;
     background-color: black;

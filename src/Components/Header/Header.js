@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css'
+import styles from "./Header.module.css";
 import {Link, Route, Switch} from "react-router-dom";
 import Home from "../../Pages/Home/Home";
 import Easy from "../../Pages/Easy/Easy";
@@ -9,17 +9,17 @@ import Hard from "../../Pages/Hard/Hard";
 const Header = () => {
     return (
         <>
-            <div className="nav-container">
+            <div className={styles.nav_container}>
                 <nav>
-                    <ul className="nav-menu">
-                        <li><Link to="/" className="nav-menu-single">Home</Link></li>
-                        <li><Link to="/easymode" className="nav-menu-single">Easy</Link></li>
-                        <li><Link to="/moderatemode" className="nav-menu-single">Moderate</Link></li>
-                        <li><Link to="/hardmode" className="nav-menu-single">Hard</Link></li>
+                    <ul className={styles.nav_menu}>
+                        <li><Link to="/" className={styles.nav_menu_single}>Home</Link></li>
+                        <li><Link to="/easymode" className={styles.nav_menu_single}>Easy</Link></li>
+                        <li><Link to="/moderatemode" className={styles.nav_menu_single}>Moderate</Link></li>
+                        <li><Link to="/hardmode" className={styles.nav_menu_single}>Hard</Link></li>
                     </ul>
                 </nav>
                 <br/>
-                <div className="single-line"/>
+                <div className={styles.single_line}/>
             </div>
             <div>
                 <Switch>

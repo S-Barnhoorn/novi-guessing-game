@@ -1,10 +1,10 @@
 import React from 'react';
-import './Footer.css'
+import styles from './Footer.module.css'
 
 const Footer = () => {
     return (
         <div>
-            <div className="single-line-footer"/>
+            <div className={styles.single_line_footer}/>
         </div>
     );
 };

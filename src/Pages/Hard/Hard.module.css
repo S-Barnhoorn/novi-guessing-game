@@ -1,6 +1,5 @@
-.easy-quizbox-container{
+.easy_quizbox_container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     justify-content: space-evenly;
 }

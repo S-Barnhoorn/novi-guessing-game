@@ -1,10 +1,30 @@
 import React from 'react';
-import './Moderate.css';
+import styles from './Moderate.module.css';
+import Quizbox from "../../Components/Quizbox/Quizbox";
 
 const Moderate = () => {
     return (
-        <div>
-            Moderate
+        <div className={styles.easy_quizbox_container}>
+            <Quizbox>
+                <h3>Vraag:</h3>
+                <p>Wat moet er op deze plek komen te staan:</p>
+            </Quizbox>
+            <Quizbox>
+                <h4>Vraag:</h4>
+                <p>En hier?</p>
+            </Quizbox>
+            <Quizbox>
+                <h4>Vraag:</h4>
+                <p>En hier?</p>
+            </Quizbox>
+            <Quizbox>
+                <h4>Vraag:</h4>
+                <p>En hier?</p>
+            </Quizbox>
+            <Quizbox>
+                <h4>Vraag:</h4>
+                <p>En hier?</p>
+            </Quizbox>
         </div>
     );
 };

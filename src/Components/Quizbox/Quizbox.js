@@ -1,15 +1,12 @@
 import React from 'react';
-import './Quizbox.css';
+import styles from './Quizbox.module.css';
 
-const Quizbox = () => {
+const Quizbox = ({children}) => {
     return (
-        <div className="quizbox-container">
-            <div className="quizbox-information">
-                <p>Vraag:</p>
-                <label htmlFor="Awnser">Antwoord:</label>
-                <input name="Awnser" type="text"/>
+        <div className={styles.quizbox_container}>
+            <div className={styles.quizbox_information}>
+                {children}
             </div>
-
         </div>
     );
 };
