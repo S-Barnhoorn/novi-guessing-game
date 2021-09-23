@@ -6,6 +6,7 @@ import Home from "./Pages/Home/Home";
 import Easy from "./Pages/Easy/Easy";
 import Moderate from "./Pages/Moderate/Moderate";
 import Hard from "./Pages/Hard/Hard";
+import Quiz from "./Pages/Quiz/Quiz";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
               </Route>
               <Route path="/hard">
                   <Hard/>
+              </Route>
+              <Route path="/quiz/:id">
+                  <Quiz/>
               </Route>
           </Switch>
           <Footer/>

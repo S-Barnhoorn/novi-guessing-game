@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import styles from './Navigation.module.css';
+import Quiz from "../../Pages/Quiz/Quiz";
 
 const Navigation = () => {
 
@@ -25,6 +26,11 @@ const Navigation = () => {
                 <li>
                     <NavLink to="/hard">
                         Hard
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="/quiz/:id">
+                        <Quiz/>
                     </NavLink>
                 </li>
             </ul>
