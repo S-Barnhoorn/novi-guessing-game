@@ -2,7 +2,7 @@ nav{
     background-color: orange;
 }
 
-ul{
+.nav_list{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
