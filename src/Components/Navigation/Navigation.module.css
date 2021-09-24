@@ -1,0 +1,13 @@
+nav{
+    background-color: orange;
+}
+
+.nav_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 16px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
