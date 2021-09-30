@@ -30,7 +30,7 @@ const Navigation = () => {
                 </li>
                 <li>
                     <NavLink to="/quiz/:id">
-                        <Quiz/>
+                        Quiz
                     </NavLink>
                 </li>
             </ul>

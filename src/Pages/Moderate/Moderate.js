@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import styles from './Moderate.module.css';
 import Quizbox from "../../Components/Quizbox/Quizbox";
 import easyquestions from "../../data/easyquestions.json";
-import {Link} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 
 const Moderate = () => {
 
